@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+    background: #222;
+    font-family:'Poppins', san-serif;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background: #D3BAC9;
+}
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+
+}
+li {
+    display: inline;
+    background-color: #D3BAC9;
+}
+.grid-container {
+    display: grid;
+}
+.grid-item {
+    background-color: #D3BAC9;
+    border: 1px;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
