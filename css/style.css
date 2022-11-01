@@ -1,37 +1,47 @@
 
 body {
     margin: 0;
-    background: #222;
-    font-family:'Poppins', san-serif;
-    font-weight: 300;
+    background: #d3bac9;
+    font-family:'Poppins',
 }
 
 .container {
-    width: 80%;
+    display: inline-block;
+    height: 250px;
+    width: 1000px;
     margin: 0 auto;
+
 }
 header {
     background: #D3BAC9;
 }
-.logo {
-    float: left;
-}
 
 nav {
-    float: right;
+  
 
 }
 li {
     display: inline;
     background-color: #D3BAC9;
 }
-.grid-container {
-    display: grid;
+.block {
+    display: inline-block;
+    height: 25px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    
 }
-.grid-item {
-    background-color: #D3BAC9;
-    border: 1px;
-    padding: 20px;
-    font-size: 16px;
-    text-align: center;
+.left {
+    float: left;
+    padding: 18px;
+}
+.right {
+    float: right;
+}
+
+.hero-text {
+    height: 30px;
+    display: block;
 }
