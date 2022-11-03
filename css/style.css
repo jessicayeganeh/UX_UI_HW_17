@@ -1,25 +1,38 @@
-
-body {
-    margin: 0;
-    background: #d3bac9;
-    font-family:'Poppins',
+#page {
+    display: grid;
+    width: 100%;
+    /* height: 250px; */
+    /* grid-template-areas:
+    "navClass navClass"
+    "bodyLeft bodyRight"
+    "foot foot"; */
+    grid-template-rows: 50px 1fr 30px;
+    /* grid-template-columns: 150px 1fr; */
 }
 
-.container {
-    display: inline-block;
-    height: 250px;
-    width: 1000px;
-    margin: 0 auto;
 
+.navClass {
+    grid-area: "navClass";
+    background-color: orange;
 }
-header {
-    background: #D3BAC9;
+.bodyLeft {
+    grid-area: "bodyLeft";
+    background-color: violet;
+}
+.bodyRight {
+    grid-area: "bodyRight";
+    background-color: purple;
+}
+#footer {
+    grid-area: "foot";
+    background-color:green;
 }
 
-nav {
-  
-
+.flexContainer {
+    display: column;
+    width: fit-content;
 }
+
 li {
     display: inline;
     background-color: #D3BAC9;
@@ -27,21 +40,63 @@ li {
 .block {
     display: inline-block;
     height: 25px;
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     font-family: 'Poppins';
     text-transform: uppercase;
     
 }
 .left {
-    float: left;
+    align-items: left;
     padding: 18px;
 }
 .right {
-    float: right;
+    align-items: right;
 }
 
 .hero-text {
     height: 30px;
     display: block;
+}
+img {
+    width: 500px;
+}
+.container1 {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    /* height: 250px; */
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.container2 {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    /* height: 250px; */
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.container3 {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr; */
+    grid-gap: 20px;
+    /* height: 250px; */
+    width: 1020px;
+    margin: 0 auto;
+}
+.button {
+    border: none;
+    color: FCF9E2;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
