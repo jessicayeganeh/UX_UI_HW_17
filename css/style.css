@@ -1,54 +1,50 @@
-#page {
-    display: grid;
-    width: 100%;
-    background-color: #D3BAC9;
-    
-}
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
-}
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-.nav {
-    width: 73%;
-    padding: 1%;
-}
-.ul {
-    width: 50%;
-    margin-left: auto;
 
+body {
+    margin: 0;
+}
+header {
+    background-color: #D3BAC9;
+}
+header ul {
+    padding: 60px;
+    float: right;
+    color: #FCF9E2;
+}
+header li {
+    display: inline-block;
+}
+header p {
+    display: inline-block;
 }
 .heroImg {
-    height: 600px;
-    padding: 25px;
+    background-color:#FCF9E2;
+    padding: 100px 20px;
 }
 .content {
-    width: 500px;
+    max-width: 400px;
     margin: 0 auto;
+    padding: 50px;
+    background-color: #D3BAC9;
+    text-align: center;
 }
-.footer {
-   background-color: #373738;
-   padding: 60px;
-}
-
-li {
-    display: inline;
-}
-
 .button {
-    border: none;
-    color: #FCF9E2;
-    padding: 15px 32px;
+    background-color: #FCF9E2;
+    padding: 15px;
     text-align: center;
     font-size: 16px;
-    margin: 4px 2px;
+    border-radius: 5px;
 }
-.navClass {
-    height: 50px;
+.footer {
+   background-color: #D3BAC9;
+   padding: 60px;
+}
+footer ul {
+    list-style: none;
+    padding: 5px;
+}
+footer li {
+    display: inline-block;
+    padding: 5px;
 }
 /* .img {
    max-width: 40%;
