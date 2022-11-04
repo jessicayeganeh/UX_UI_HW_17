@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins';
 }
 header {
     background-color: #D3BAC9;
@@ -9,6 +10,7 @@ header ul {
     padding: 60px;
     float: right;
     color: #FCF9E2;
+
 }
 header li {
     display: inline-block;
@@ -26,6 +28,7 @@ header p {
     padding: 50px;
     background-color: #D3BAC9;
     text-align: center;
+    font-size: 18px;
 }
 .button {
     background-color: #FCF9E2;
