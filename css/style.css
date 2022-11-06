@@ -52,3 +52,10 @@ footer li {
 /* .img {
    max-width: 40%;
 } */
+.flexContainer {
+    display: flex;
+    padding: 60px 30px;
+}
+.flexContainer div {
+    width: 33%;
+}
