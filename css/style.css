@@ -28,7 +28,7 @@ header p {
     padding: 50px;
     background-color: #D3BAC9;
     text-align: center;
-    font-size: 18px;
+    font-size: 18
 }
 .button {
     background-color: #FCF9E2;
@@ -52,10 +52,3 @@ footer li {
 /* .img {
    max-width: 40%;
 } */
-.flexContainer {
-    display: flex;
-    padding: 60px 30px;
-}
-.flexContainer div {
-    width: 33%;
-}
